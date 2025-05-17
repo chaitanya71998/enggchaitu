@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Cube, Layers, AtomIcon } from 'lucide-react';
+import { Box, Layers, AtomIcon } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   return (
@@ -54,7 +54,7 @@ const AboutSection: React.FC = () => {
             <div className="futuristic-card hover-glow">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-portfolio-orange/10 rounded-lg">
-                  <Cube className="h-8 w-8 text-portfolio-orange" />
+                  <Box className="h-8 w-8 text-portfolio-orange" />
                 </div>
                 <div>
                   <h3 className="text-xl font-bold mb-2">3D Modeler</h3>
