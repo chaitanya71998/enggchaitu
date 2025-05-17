@@ -1,75 +1,54 @@
 
-import React, { Suspense } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
-import Navigation from '@/components/Navigation';
-import AboutSection from '@/components/AboutSection';
-import ExperienceSection from '@/components/ExperienceSection';
-import ProjectsSection from '@/components/ProjectsSection';
-import ContactSection from '@/components/ContactSection';
-import Footer from '@/components/Footer';
-import { Link } from 'react-router-dom';
-
-// Lazy load the 3D hero section to improve initial load time
-const HeroSection = React.lazy(() => import('@/components/HeroSection'));
+import React from 'react';
+import { Github, Linkedin } from 'lucide-react';
+import { motion } from 'framer-motion';
 
 const Index = () => {
-  const { scrollYProgress } = useScroll();
-  const aboutY = useTransform(scrollYProgress, [0.1, 0.3], [100, 0]);
-  const experienceY = useTransform(scrollYProgress, [0.3, 0.5], [100, 0]);
-  const projectsY = useTransform(scrollYProgress, [0.5, 0.7], [100, 0]);
-  const contactY = useTransform(scrollYProgress, [0.7, 0.9], [100, 0]);
-
   return (
-    <div className="min-h-screen bg-portfolio-dark text-white overflow-hidden">
-      <Navigation />
-      
-      <Suspense fallback={
-        <div className="h-screen flex items-center justify-center">
-          <div className="animate-pulse text-portfolio-green font-bold text-2xl">
-            Loading 3D Experience...
-          </div>
-        </div>
-      }>
-        <HeroSection />
-      </Suspense>
-      
-      <motion.div style={{ y: aboutY }} className="relative overflow-hidden">
-        <AboutSection />
-        <div className="text-center mt-6 mb-12">
-          <Link to="/about" className="futuristic-border inline-block">
-            <span className="relative z-10 px-6 py-2 block">View Full About Page</span>
-          </Link>
-        </div>
-      </motion.div>
-
-      <motion.div style={{ y: experienceY }} className="relative overflow-hidden">
-        <ExperienceSection />
-        <div className="text-center mt-6 mb-12">
-          <Link to="/experience" className="futuristic-border inline-block">
-            <span className="relative z-10 px-6 py-2 block">View Full Experience Page</span>
-          </Link>
-        </div>
-      </motion.div>
-
-      <motion.div style={{ y: projectsY }} className="relative overflow-hidden">
-        <ProjectsSection />
-        <div className="text-center mt-6 mb-12">
-          <Link to="/projects" className="futuristic-border inline-block">
-            <span className="relative z-10 px-6 py-2 block">View Full Projects Page</span>
-          </Link>
-        </div>
-      </motion.div>
-
-      <motion.div style={{ y: contactY }} className="relative overflow-hidden">
-        <ContactSection />
-        <div className="text-center mt-6 mb-12">
-          <Link to="/contact" className="futuristic-border inline-block">
-            <span className="relative z-10 px-6 py-2 block">View Full Contact Page</span>
-          </Link>
-        </div>
-      </motion.div>
-
-      <Footer />
+    <div className="min-h-screen bg-portfolio-dark text-white flex flex-col items-center justify-center">
+      <div className="container mx-auto text-center px-4">
+        <motion.h1 
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          className="text-5xl md:text-7xl font-bold mb-6"
+        >
+          <span className="highlight-text">Chaitanya Sai Terli</span>
+        </motion.h1>
+        
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.6 }}
+          className="flex justify-center space-x-6 mb-12"
+        >
+          <a 
+            href="https://linkedin.com/in/your-linkedin" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-3 border border-portfolio-gray/30 rounded-full hover:border-portfolio-green hover:text-portfolio-green transition-colors"
+          >
+            <Linkedin size={24} />
+          </a>
+          <a 
+            href="https://github.com/your-github" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="p-3 border border-portfolio-gray/30 rounded-full hover:border-portfolio-green hover:text-portfolio-green transition-colors"
+          >
+            <Github size={24} />
+          </a>
+        </motion.div>
+        
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.6, duration: 0.6 }}
+          className="text-xl text-portfolio-gray animate-pulse"
+        >
+          Complete website coming soon...
+        </motion.div>
+      </div>
     </div>
   );
 };
