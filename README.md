@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+# 🌐 enggchaitu.lovable.app
 
-## Project info
+Welcome to **enggchaitu.lovable.app** – a digital showcase of my journey as a **Frontend Engineer**, **Product Builder**, and **Team Lead** 🚀  
+This is where ideas meet execution, and pixels meet performance.
 
-**URL**: https://lovable.dev/projects/4eaee70a-4af5-4011-b241-1de174d466f0
+🔗 Visit live: [enggchaitu.lovable.app](https://enggchaitu.lovable.app)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 👋 About Me
 
-**Use Lovable**
+Hey, I’m **Chaitanya Sai Terli** – a frontend specialist who *studied Mechanical Engineering* but found his true passion in **building powerful web products** that people love to use.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4eaee70a-4af5-4011-b241-1de174d466f0) and start prompting.
+With over **5+ years** of experience, I’ve:
+- Led and collaborated with cross-functional frontend teams.
+- Delivered **production-ready features** at scale.
+- Contributed to **core architecture**, handled **critical releases**, and ensured seamless **feature integrations**.
+- Built and scaled products with **React**, **TypeScript**, **Tailwind CSS**, **Cypress**, **Docker**, and more.
 
-Changes made via Lovable will be committed automatically to this repo.
+I enjoy creating systems that are **clean, performant, and maintainable** — and mentoring junior devs while doing it.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔧 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Languages**: JavaScript (ES6+), TypeScript,Python, SQL, HTML,CSS
+- **Frameworks**: React, Next.js, React Native
+- **Styling**: Tailwind CSS, SCSS, CSS-in-JS
+- **Testing**: Cypress, Jest
+- **Tools**: Git, Docker, Vite, Webpack
+- **Practices**: Component architecture, CI/CD, Code reviews, Agile development
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📦 What You'll Find Here
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- A timeline of my **experience shipping products**
+- Projects from GitHub that I’ve built or contributed to
+- A quick glimpse of how I **manage frontend teams** and keep product quality high
+- A story of how an engineer with a mechanical degree became a digital product creator
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🔥 Featured Projects
 
-**Edit a file directly in GitHub**
+Check out some of my recent work on GitHub:  
+[github.com/chaitanya71998](https://github.com/chaitanya71998?tab=repositories)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🤝 Let's Connect
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Open to exciting opportunities, collaborations, or conversations around frontend architecture, product design, or clean code.
 
-## What technologies are used for this project?
+📬 **Email**: chaitanyasai.terli@gmail.com  
+💼 **LinkedIn**: [linkedin.com/in/chaitanya-sai-terli-1b3038122](https://linkedin.com/in/chaitanya-sai-terli-1b3038122)  
+💻 **GitHub**: [github.com/chaitanya71998](https://github.com/chaitanya71998)
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🙏 Thanks
 
-## How can I deploy this project?
+Huge shoutout to **Loavable** for helping devs like me showcase our work beautifully.  
+If you liked this portfolio, don’t forget to hit that ⭐ on the repo!
 
-Simply open [Lovable](https://lovable.dev/projects/4eaee70a-4af5-4011-b241-1de174d466f0) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> “You don’t just build features — you build the experience around them.”  
+> — Chaitanya Sai Terli
