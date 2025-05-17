@@ -1,0 +1,48 @@
+
+{
+  "glyphs": {
+    "A": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "B": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "C": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "D": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "E": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "F": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "G": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "H": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "I": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "J": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "K": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "L": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "M": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "N": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "O": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "P": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "Q": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "R": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "S": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "T": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "U": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "V": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "W": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "X": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "Y": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 },
+    "Z": { "x_min": 0, "x_max": 1016, "y_min": 0, "y_max": 1456, "ha": 1016 }
+  },
+  "familyName": "Inter",
+  "ascender": 2150,
+  "descender": -555,
+  "underlinePosition": -250,
+  "underlineThickness": 150,
+  "boundingBox": { "yMin": -555, "xMin": -1000, "yMax": 2150, "xMax": 5555 },
+  "resolution": 1000,
+  "original_font_information": {
+    "format": "truetype",
+    "copyright": "Copyright (c) 2022 Inter",
+    "fontFamily": "Inter",
+    "fontSubfamily": "Bold",
+    "uniqueID": "3.019;Inter-Bold",
+    "fullName": "Inter Bold",
+    "version": "Version 3.019",
+    "postScriptName": "Inter-Bold"
+  }
+}
